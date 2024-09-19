@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Side: Form Section -->
+        <div class="form-section">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="Logo">
+            </div>
+            <h1>Créer un compte</h1>
+            <p>Profiter de toutes nos offres avec 15 % de réduction pendant 30 jours !</p>
+            <form>
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Mots de passe</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Inscription</button>
+
+                <div class="oauth">
+                    <button class="google">S'inscrire avec Google</button>
+                    <button class="twitter">S'inscrire avec facebook</button>
+                </div>
+            </form>
+            <p class="login-link">Vous avez déja un compte? <a href="#">Connexion</a></p>
+        </div>
+
+        <!-- Right Side: Testimonial Section -->
+        <div class="testimonial-section">
+            <!-- <img src="." alt="Testimonial Image" class="testimonial-image"> -->
+            <blockquote>
+                <p class="text">Untitled Labs were a breeze to work alongside, we can't recommend them enough. We launched 6 months earlier than expected and are growing 30% MoM.</p>
+                <footer>
+                    <cite>Amélie Laurent<br><span class="title-job">Foundatrice, creme noir.</span></cite>
+                </footer>
+            </blockquote>
+        </div>
+    </div>
+</body>
+</html>
